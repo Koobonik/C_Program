@@ -22,8 +22,8 @@ void AddArrayElem(int *param, int len, int add)
 void main()
 {
     int arr[3] = {1, 2, 3};
-    AddArrayElem(arr, sizeof(arr) / sizeof(int), 1);
-    ShowArrayElem(arr, sizeof(arr) / sizeof(int));
+    AddArrayElem(arr, sizeof(arr) / sizeof(int), 1);//sizeof는 크기를 측정할 수 있음
+    ShowArrayElem(arr, sizeof(arr) / sizeof(int));//
 
     AddArrayElem(arr, sizeof(arr) / sizeof(int), 2);
     ShowArrayElem(arr, sizeof(arr) / sizeof(int));
