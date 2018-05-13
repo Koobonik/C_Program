@@ -27,13 +27,13 @@ void main()
         }
     }
     printf("홀수 출력 : ");
-    for(int i=0; i<10; i++)
+    for(int i=0; i<sizeof(odd_num); i++)
     {
         printf("%d ", odd_num[i]);
     }
     printf("\n");
     printf("짝수 출력 : ");
-    for(int i=0; i<10; i++)
+    for(int i=0; i<sizeof(even_num); i++)
     {
         printf("%d ", even_num[i]);
     }
