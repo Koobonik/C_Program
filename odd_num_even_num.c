@@ -15,27 +15,28 @@ void main()
     }
     for(int i=0; i<10; i++)//홀수와 짝수를 구별
     {
-        if(num[i]%2 == 1)//홀수일때
+        if(num[i]%2 == 0)//짝수일때
+        {
+            even_num[even] = num[i];
+            even++;
+            
+        }
+        else
         {
             odd_num[odd] = num[i];
             odd++;
         }
-        else
-        {
-            even_num[even] = num[i];
-            even++;
-        }
     }
-    printf("홀수 출력 : ");
-    for(int i=0; i<sizeof(odd_num); i++)
-    {
-        printf("%d ", odd_num[i]);
-    }
-    printf("\n");
-    printf("짝수 출력 : ");
+    printf("짝수 출력 : ");//짝수 출력
     for(int i=0; i<sizeof(even_num); i++)
     {
         printf("%d ", even_num[i]);
+    }
+    printf("\n");
+    printf("홀수 출력 : ");//홀수출력
+    for(int i=0; i<sizeof(odd_num); i++)
+    {
+        printf("%d ", odd_num[i]);
     }
     printf("\n");
 }
