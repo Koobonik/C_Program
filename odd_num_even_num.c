@@ -19,7 +19,6 @@ void main()
         {
             even_num[even] = num[i];
             even++;
-            
         }
         else
         {
@@ -28,16 +27,15 @@ void main()
         }
     }
     printf("짝수 출력 : ");//짝수 출력
-    for(int i=0; i<sizeof(even_num) - odd-30; i++)
+    for(int i=0; i<sizeof(even_num) - odd-30; i++)//odd 만큼 빼줌
     {
         printf("%d ", even_num[i]);
     }
     printf("\n");
     printf("홀수 출력 : ");//홀수출력
-    for(int i=0; i<sizeof(odd_num) - even-30; i++)
+    for(int i=0; i<sizeof(odd_num) - even-30; i++)//even 만큼 빼줌
     {
         printf("%d ", odd_num[i]);
     }
     printf("\n");
-
 }
