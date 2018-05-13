@@ -28,15 +28,16 @@ void main()
         }
     }
     printf("짝수 출력 : ");//짝수 출력
-    for(int i=0; i<sizeof(even_num); i++)
+    for(int i=0; i<sizeof(even_num) - odd-30; i++)
     {
         printf("%d ", even_num[i]);
     }
     printf("\n");
     printf("홀수 출력 : ");//홀수출력
-    for(int i=0; i<sizeof(odd_num); i++)
+    for(int i=0; i<sizeof(odd_num) - even-30; i++)
     {
         printf("%d ", odd_num[i]);
     }
     printf("\n");
+
 }
