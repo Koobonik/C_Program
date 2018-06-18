@@ -2,8 +2,7 @@
 
 void ShowArrayElem(int * param, int len)
 {
-    int i;
-    for(i=0; i<len; i++)
+    for(int i=0; i<len; i++)
     {
         printf("%d ",param[i]);
     }
@@ -12,8 +11,7 @@ void ShowArrayElem(int * param, int len)
 
 void AddArrayElem(int *param, int len, int add)
 {
-    int i;
-    for(i=0; i<len; i++)
+    for(int i=0; i<len; i++)
     {
         param[i] += add;
     }
