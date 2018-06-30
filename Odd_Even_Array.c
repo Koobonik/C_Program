@@ -7,4 +7,10 @@
 #include <stdio.h>
 void main(){
     int num[10];
+    
+    // num에 정수 입력 받기
+    for(int i=0; i<10; i++){
+        printf("입력: ");
+        scanf("%d", &num[i]);
+    }
 }
