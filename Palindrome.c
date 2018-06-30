@@ -7,6 +7,6 @@
 #include <string.h>
 
 void main(){
-    int str = strlen("hello");
+    int str = strlen("hello d"); // 띄어쓰기 포함된다.
     printf("%d\n", str);
 }
