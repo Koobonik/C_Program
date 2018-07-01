@@ -14,10 +14,12 @@ void main(){
     int char_num = strlen(c); // 단어의 길이 계산
     printf("%d\n", char_num);
 
-    if(char_num %2 == 1){ // 단어의 길이가 짝수일 경우
+    if(char_num %2 == 0){ // 단어의 길이가 짝수일 경우
        for(int i = 0; i < char_num; i++){
-           
-
+           if(c[i] == c[char_num - 1]){
+               printf("양 끝이 일치합니다.\n");
+               char_num--;
+           }
        }  
     }
     else{ // 단어의 길이가 홀수일 경우
