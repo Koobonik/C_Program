@@ -7,7 +7,7 @@
 #include <string.h>
 
 void main(){
-    char c[20]; // 단어를  담을 변수
+    char c[40]; // 단어를  담을 변수
     printf("문자열 입력 : ");
     scanf("%s", c); // 단어  입력
     printf("입력한 문자열은 %s 입니다\n", c);
