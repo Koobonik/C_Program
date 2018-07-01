@@ -13,4 +13,11 @@ void main(){
     printf("입력한 문자열은 %s 입니다\n", c);
     int char_num = strlen(c); // 단어의 길이 계산
     printf("%d\n", char_num);
+
+    if(char_num %2 == 1){ // 단어의 길이가 짝수일 경우
+        
+    }
+    else{ // 단어의 길이가 홀수일 경우
+        
+    }
 }
