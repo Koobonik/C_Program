@@ -26,6 +26,8 @@ void main(){
             }
             else if (char_num - i <= 1){
                 printf("회문 입니다.\n");
+		break;
+		// 혹시 모를 버그를 위해 break 선언
             }
         }
     }  
