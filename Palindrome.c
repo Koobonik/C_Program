@@ -18,7 +18,7 @@ void main(){
 
 
     // 문자열을 반대로 저장할 것임
-    for(int i= char_num -1; i>=0; i--){
+    for(int i= char_num -1; i>=0; i--){ // 배열값은 하나 더 작으므로
         d[e] = c[i];
         e++;
     }
