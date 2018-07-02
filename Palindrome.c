@@ -28,6 +28,6 @@ void main(){
         printf("회문입니다.\n");
     }
     else{
-        printf("회문이 아니니다.\n");
+        printf("회문이 아닙니다.\n");
     }
 }
