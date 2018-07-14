@@ -20,7 +20,7 @@ void main()
             even_num[even] = num[i];
             even++;
         }
-        else
+        else // 홀수 일때
         {
             odd_num[odd] = num[i];
             odd++;
