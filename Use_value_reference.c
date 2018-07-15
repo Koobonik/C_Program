@@ -2,11 +2,11 @@
 
 int SquareByValue(int a)
 {
-    int s = a * a;
+    int s = a * a; // 제곱 반환
     return s;
 }
 
-void SquareByReference(int * b)
+void SquareByReference(int * b) // 인스턴스 자체에 다시 변수 대입
 {
     int ss = * b;
     *b = ss * ss;
