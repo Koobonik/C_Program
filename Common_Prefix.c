@@ -3,5 +3,6 @@
 #include <stdio.h>
 void main(){
     char input_string[50];
-
+    printf("문자를 입력해주세요 : \n");
+    scanf("%s", &input_string);
 }
