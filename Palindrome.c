@@ -4,7 +4,7 @@
  */
 
 #include <stdio.h>
-#include <string.h>
+#include <string.h> // 문자열 함수 사용
 
 void main(){
     char c[40], d[40]; // 단어를  담을 변수
