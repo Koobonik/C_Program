@@ -35,12 +35,12 @@ void main(){
             save_string[i] = one_input_string[i]; // 저장 변수에 문자 추가
             count++; // 카운트 추가
         }
-        else if (count == 0)
+        else if (count == 0) // 카운트가 올라가지 않으면 일치하는 것이 없다는 뜻
         {
             printf("두 단어가 일치하는 접두사는 없습니다.\n");
             break;
         }
-        else
+        else // 첫번째 if 문을 만족하지 않는 경우 else 로 와서 그동안 저장되어온 save_string을 출력한다.
         {
             printf("두 글의 접두사는 %s 입니다.\n", save_string);
             break;
