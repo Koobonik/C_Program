@@ -19,5 +19,5 @@ void main(){
         reverse_string[count] = string[i];
         count++;
     }
-    printf("%s\n",reverse_string);
+    printf("%s\n",reverse_string); // reverse_string 에 저장된 문자들 출력 
 }
