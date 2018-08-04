@@ -16,7 +16,7 @@ void main(){
 
     // 배열을 뒤집어줄 변수
     for(int i = string_length - 1; i >= 0; i--){ //
-        reverse_string[count] = string[i];
+        reverse_string[count] = string[i]; // 배열에 뒤집어서 저장중
         count++;
     }
     printf("%s\n",reverse_string); // reverse_string 에 저장된 문자들 출력 
