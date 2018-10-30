@@ -6,8 +6,8 @@
 #include <string.h>
 
 void main(){
-    char string[50]; // 입력받은 문자열을 저장할 변수
-    char reverse_string[50]; // 거꾸로 입력되는 문자열을 저장할 변수
+    char string[100]; // 입력받은 문자열을 저장할 변수
+    char reverse_string[100]; // 거꾸로 입력되는 문자열을 저장할 변수
     int string_length; // 문자열의 길이를 저장할 변수
     int count = 0; // 이후 reverse_string 에 저장될 문자들을 저장하기 위해 +1 씩 증가될 변수
     printf("문자열을 입력해주세요 : "); // 문자열 입력
