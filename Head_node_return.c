@@ -2,5 +2,6 @@
 #include <stdio.h>
 
 void main(){ // 일본 여행 전 마지막 커밋
-	
+  int a = 0;
+  scanf("%d", &a);
 }
