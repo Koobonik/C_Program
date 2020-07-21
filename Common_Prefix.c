@@ -1,5 +1,5 @@
 /* 문자열 배열 두개가 주어지면 제일 긴 공통된 접두사의 길이를 구하시오.*/
-
+// 재밌네
 #include <stdio.h>
 #include <string.h> // 문자열 함수 사용
 void main(){
