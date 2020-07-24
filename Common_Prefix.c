@@ -3,6 +3,7 @@
 #include <stdio.h>
 #include <string.h> // 문자열 함수 사용
 void main(){
+    // 이거 재밌었지
     char one_input_string[50]; // 첫번째 문자열이 들어갈 변수
     char two_input_string[50]; // 두번째 문자열이 들어갈 변수
     int compare = 0; // 두 문자열의 숫자를 비교해서 보다 작은수가 들어갈 변수
