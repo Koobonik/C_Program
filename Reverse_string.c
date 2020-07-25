@@ -1,10 +1,8 @@
 /*
  문자열을 받으면 거꾸로 출력해 줄 것임
 */
-
 #include <stdio.h>
 #include <string.h>
-
 void main(){
     char string[100]; // 입력받은 문자열을 저장할 변수
     char reverse_string[100]; // 거꾸로 입력되는 문자열을 저장할 변수
