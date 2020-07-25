@@ -11,7 +11,6 @@ void main(){
     printf("문자열을 입력해주세요 : "); // 문자열 입력
     scanf("%[^\n]s", string); // [^\n] 의 기능은 \n을 받기 전까지 계속입력한다는 뜻이다.
     string_length = strlen(string); // 길이 넣기
-
     // 배열을 뒤집어줄 변수
     for(int i = string_length - 1; i >= 0; i--){ //
         reverse_string[count] = string[i]; // 배열에 뒤집어서 저장중
