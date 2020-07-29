@@ -6,5 +6,4 @@ void main(int args, char **argv)
     //int system(const char *string);
     int ret = system("sudo apt-get update");//입력하고 싶은 명령어 입력하면 됨
     // 이후 ssh 연결을 편리하게 하기위해 만들 것임
-    // 언제만들래?
 }
