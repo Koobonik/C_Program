@@ -10,7 +10,7 @@ void SquareByReference(int * b) // 인스턴스 자체에 다시 변수 대입
 }
 void main()
 {
-    int num = 30;
+    int num = 30; // 변수 선언
     int * para = &num; // num의 주소값을 para 에 대입한다
     printf("%d \n", SquareByValue(num));
     SquareByReference(&num);
