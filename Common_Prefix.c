@@ -11,13 +11,10 @@ void main(){
     int count = 0; // 만약 0이면 일치하는게 없다고 바로 출력을 해주기 위한 변수
     printf("첫번째 문자를 입력해주세요 : \n"); 
     scanf("%s", one_input_string); // 첫번째 문자열 입력
-
     printf("두번째 문자를 입력해주세요 : \n");
     scanf("%s",two_input_string); // 두번째 문자열 입력
-
     one_length = strlen(one_input_string); // 길이를 구하는 함수 strlen
     two_length = strlen(two_input_string); //
-
     if(one_length >= two_length) // 첫번째 수가 더 크다면
     {
         compare = two_length; // 작은수 반환
@@ -26,7 +23,6 @@ void main(){
     {
         compare = one_length; // 아닌경우는 큰 수를  반환
     }
-
     // 두 수를 비교하여 짧은 수 만큼만 반복할 것임
     for(int i = 0; i < compare; i++)
     {
