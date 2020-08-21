@@ -1,6 +1,4 @@
-/*
- 문자열을 받으면 거꾸로 출력해 줄 것임
-*/
+// 문자열을 받으면 거꾸로 출력해 줄 것임
 #include <stdio.h>
 #include <string.h>
 void main(){
