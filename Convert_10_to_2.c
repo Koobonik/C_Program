@@ -6,7 +6,6 @@ void main(){
     // 정수 입력 부분
     printf("정수를 입력하세요 : ");
     scanf("%d", &input);
-    
     // 입력값 만큼 반복 
     for(int i = 0; input > 0; i++){
         arr[i] = input%2; // input 값의 2로 나누었을때의 나머지 값을 넣어줌
