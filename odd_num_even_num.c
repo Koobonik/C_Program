@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 void main()
 {
     printf("총 10개의 숫자 입력\n");
