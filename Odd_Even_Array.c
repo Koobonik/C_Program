@@ -9,7 +9,6 @@ void main(){
     int save_num[10]; // 조건에 따라 정수를 저장할 변수
     int front = 0; // 앞에서부터 채울 때 카운트 할 변수
     int back = 9; // 뒤에서부터 채울 때 카운트 할 변수
-
     // num에 정수 입력 받기
     for(int i=0; i<10; i++){
         printf("입력: ");
