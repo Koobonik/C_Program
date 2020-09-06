@@ -16,6 +16,7 @@ void AddArrayElem(int *param, int len, int add)
         param[i] += add;
     }
 }
+
 void main()
 {
     int arr[3] = {1, 2, 3};
